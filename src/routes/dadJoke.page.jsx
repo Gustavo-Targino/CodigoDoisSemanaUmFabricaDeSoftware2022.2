@@ -1,7 +1,12 @@
 import React from "react";
+import DadJoke from "../components/dadJoke";
 
 const DadJokePage = () => {
-  return <div>dad joke here</div>;
+  return (
+    <main>
+      <DadJoke />
+    </main>
+  );
 };
 
 export default DadJokePage;
